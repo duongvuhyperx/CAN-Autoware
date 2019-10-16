@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hyperxai01/can-autoware/src/socketcan_interface/include/socketcan_interface/FastDelegate.h
+memory.h
+-
+
+/home/hyperxai01/can-autoware/src/socketcan_interface/include/socketcan_interface/filter.h
+vector
+-
+interface.h
+/home/hyperxai01/can-autoware/src/socketcan_interface/include/socketcan_interface/interface.h
+
+/home/hyperxai01/can-autoware/src/socketcan_interface/include/socketcan_interface/interface.h
+boost/array.hpp
+-
+boost/system/error_code.hpp
+-
+boost/shared_ptr.hpp
+-
+FastDelegate.h
+/home/hyperxai01/can-autoware/src/socketcan_interface/include/socketcan_interface/FastDelegate.h
+iostream
+-
+boost/thread/mutex.hpp
+-
+
+/home/hyperxai01/can-autoware/src/socketcan_interface/include/socketcan_interface/string.h
+interface.h
+/home/hyperxai01/can-autoware/src/socketcan_interface/include/socketcan_interface/interface.h
+filter.h
+/home/hyperxai01/can-autoware/src/socketcan_interface/include/socketcan_interface/filter.h
+sstream
+-
+
+/home/hyperxai01/can-autoware/src/socketcan_interface/src/string.cpp
+socketcan_interface/string.h
+-
+

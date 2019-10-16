@@ -1,0 +1,2 @@
+socketcan_interface:vehicle
+-DCATKIN_DEVEL_PREFIX=/home/hyperxai01/can-autoware/devel -DCMAKE_INSTALL_PREFIX=/home/hyperxai01/can-autoware/install -G Unix Makefiles

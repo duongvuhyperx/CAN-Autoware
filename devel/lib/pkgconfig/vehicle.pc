@@ -1,0 +1,8 @@
+prefix=/home/hyperxai01/can-autoware/devel
+
+Name: vehicle
+Description: Description of vehicle
+Version: 0.0.0
+Cflags: -I/home/hyperxai01/can-autoware/src/vehicle/include
+Libs: -L/home/hyperxai01/can-autoware/devel/lib -ltopic_to_socketcan
+Requires: roscpp geometry_msgs rosconsole autoware_msgs message_runtime std_msgs can_msgs socketcan_interface
